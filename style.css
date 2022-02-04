@@ -1,0 +1,112 @@
+/* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
+:root {
+    --black: #171321;
+    --dkblue: #0d314b;
+    --plum: #4b0d49;
+    --hotmag: #ff17e4;
+    --magenta: #e310cb;
+    --aqua: #86fbfb;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+    --mono: "Oxygen mono", monospace;
+    --sans: Oxygen, sans-serif;
+}
+/* border box model: https://css-tricks.com/box-sizing/ */
+html {
+    /* box-sizing: border-box; */
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--sans);
+    font-size: 16px;
+}
+.logo{
+    font-size: x-large;
+}
+.navbar{
+    background: #86fbfb;
+    height: 60px;
+}
+.nav-container{
+    padding: 1rem;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 1rem;
+    align-items: center;
+    height: 100%;
+}
+.nav-container div:nth-child(1){
+    border: 3px solid rebeccapurple;
+    color: red;
+    /* margin-left: auto; */
+}
+.nav-container div:nth-child(2){
+    border: 3px solid green;
+    margin-left: auto;
+}
+.header-container{
+    display: flex;
+    flex-basis: 50%;
+}
+h1{
+    margin-bottom: 1rem;
+}
+p{
+    font-size: 1.4rem;
+}
+ul{
+    list-style-type: none;
+}
+.nav{
+    display: flex;
+    gap: 1rem;
+}
+.header-container div:nth-child(1){
+    /* flex-basis: 50%; */
+    /* border: 5px solid blue; */
+    padding: 2rem;
+    color: red;
+}
+.header-container img:nth-child(2){
+    /* flex-basis: 40%; */
+    /* border: 5px solid red; */
+    color: red;
+    flex-basis: 50%;
+}
+.container:nth-child(2){
+    width: 10px;
+    height: 10px;
+    color: #e310cb;
+}
+img{
+    width: 50%;
+    padding: 1rem;
+}
+.er{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    padding-left: 2rem;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.btn{
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: rebeccapurple;
+}
+.btn-primary{
+    background-color: white;
+    border: 4px solid red;
+}
+.btn-secondary{
+    background-color: red;
+}
