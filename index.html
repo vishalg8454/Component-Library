@@ -14,21 +14,21 @@
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">Component</div>
-            <div>
-            <ul class="nav">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Docs</a>
-                </li>
-            </ul>
+            <div class="nav-logo">COMPONENT</div>
+            <div class="nav-list-container">
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="docs.html">Docs</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
 
-    <header class="header">
+    <header>
         <div class="header-container">
             <div>
                 <h1>This is a component Library</h1>
@@ -37,13 +37,12 @@
                     minima eligendi?
                 </p>
             </div>
-            <img src="./images/image.svg" alt="">
+            <img class="header-image" src="./images/image.svg" alt="">
         </div>
     </header>
-
-    <div class="er">
-        <button class="btn btn-primary">Installation</button>
-        <button class="btn btn-secondary" onclick="location.href='docs.html'">Documentation</button>
+    <div class="div-cta-container">
+        <button class="btn btn-secondary">Installation</button>
+        <button class="btn btn-primary" onclick="location.href='docs.html'">Documentation</button>
     </div>
 
     <script src="index.js"></script>
