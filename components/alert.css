@@ -1,0 +1,26 @@
+.alert{
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0.8rem;
+    font-size: 1.1rem;
+}
+.alert-primary{
+    background-color: rgba(23, 97, 180, 0.397);
+    color: rgba(6, 60, 122, 0.904);
+}
+.alert-secondary{
+    background-color: rgba(51, 51, 51, 0.116);
+    color: rgba(51, 51, 51, 0.795);
+}
+.alert-success{
+    background-color: rgba(41, 243, 34, 0.315);
+    color: rgb(25, 189, 19);
+}
+.alert-warning{
+    background-color: rgba(204, 241, 37, 0.315);
+    color: rgb(135, 160, 22);
+}
+.alert-danger{
+    background-color: rgba(223, 35, 60, 0.164);
+    color: rgba(223, 35, 60, 0.87);
+}
