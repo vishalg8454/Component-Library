@@ -4,13 +4,35 @@
     display: flex;
 
 }
-.sidebar{
+main{
     padding: 1rem;
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    flex-basis: 200px;
 }
 section{
     min-height: 50vh;
+    border: 2px solid var(--color-primary);
+    padding: 1rem;
+    margin: 1rem;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+.sidebar{
+    background-color: var(--color-background);
+    flex-basis: 500px;
+    position: sticky; 
+    top: 4rem;
+    left: 0;
+    height: calc(100vh - 4rem);
+    overflow: auto;
+}
+.sidebar-list{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+.sidebar-list-item{
+    color: var(--color-primary);
 }
