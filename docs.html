@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./docs.css">
     <link rel="stylesheet" href="./components/main.css">
     <script src="https://kit.fontawesome.com/06bd83eb3a.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
 </head>
 
 <body>
@@ -34,7 +35,7 @@
             <ul class="sidebar-list">
                 <a class="sidebar-list-item" href="#alert">Alert</a>
                 <a class="sidebar-list-item" href="#badge">Badge</a>
-                <a class="sidebar-list-item" href="#card">Card</a>
+                <a class="sidebar-list-item" href="#button">Button</a>
             </ul>
         </aside>
 
@@ -48,13 +49,86 @@
                 <div class="component-demo">
                     <div class="alert alert-primary">This is an example of primary alert.</div>
                     <div class="alert alert-secondary">This is an example of secondary alert.</div>
-                    <div class="alert alert-success"><i class="fas fa-check-circle"></i> This is an example of success alert.</div>
-                    <div class="alert alert-warning"><i class="fas fa-exclamation-triangle"></i> This is an example of warning alert.</div>
-                    <div class="alert alert-danger"><i class="fas fa-times-circle"></i> This is an example of danger alert.</div>
+                    <div class="alert alert-success"><i class="fas fa-check-circle"></i> This is an example of success
+                        alert.</div>
+                    <div class="alert alert-warning"><i class="fas fa-exclamation-triangle"></i> This is an example of
+                        warning alert.</div>
+                    <div class="alert alert-danger"><i class="fas fa-times-circle"></i> This is an example of danger
+                        alert.</div>
                 </div>
                 <div>
                     <iframe class="component-code"
                         src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253EThis%2520is%2520an%2520example%2520of%2520primary%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253EThis%2520is%2520an%2520example%2520of%2520secondary%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%25E2%259C%2585%2520This%2520is%2520an%2520example%2520of%2520success%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%25E2%259A%25A0%25EF%25B8%258F%2520This%2520is%2520an%2520example%2520of%2520warning%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%25E2%259D%258C%2520This%2520is%2520an%2520example%2520of%2520danger%2520alert.%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- badge -->
+            <section id="badge">
+                <h2 class="component-title">Badge</h2>
+                <p class="component-description">Badge can be used to display notification count or a status such as
+                    offline or online.
+                    Badge is available in four sizes 'xsm', 'sm', 'md' and 'lg'. The three status modes are
+                    'badge-online', 'badge-offline' and 'badge-away'.
+                </p>
+                <div class="badge-output-container">
+                    <div>
+                        <img class="avatar avatar-xsm" src="https://i.pravatar.cc/300">
+                        <div class="badge badge-xsm badge-online"></div>
+                    </div>
+                    <div>
+                        <img class="avatar avatar-sm" src="https://i.pravatar.cc/300">
+                        <div class="badge badge-sm badge-away"></div>
+                    </div>
+                    <div>
+                        <img class="avatar avatar-md" src="https://i.pravatar.cc/300">
+                        <div class="badge badge-md badge-online"></div>
+                    </div>
+                    <div>
+                        <img class="avatar avatar-lg" src="https://i.pravatar.cc/300">
+                        <div class="badge badge-lg badge-offline"></div>
+                    </div>
+                </div>
+                <div class="badge-output-container">
+                    <div>
+                        <i class="badge-icon fas fa-envelope"></i>
+                        <div class="badge-text">8</div>
+                    </div>
+                    <div>
+                        <i class="badge-icon fas fa-shopping-cart"></i>
+                        <div class="badge-text">3</div>
+                    </div>
+                </div>
+                <div>
+                    <iframe class="component-code"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xsm%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-xsm%2520badge-online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-sm%2520badge-away%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-md%2520badge-online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-lg%2520badge-offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522badge-icon%2520fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-text%2522%253E8%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522badge-icon%2520fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-text%2522%253E3%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+            
+            <!-- button -->
+            <section id="button">
+                <h2 class="component-title">Button</h2>
+                <p class="component-description">Primary and secondary buttons are available in two varients: Solid and
+                    Outline. Link buttons are available under class 'btn-link'. FAB are available under class
+                    'button-floating-action'. Icons can also be used inside button. 
+                </p>
+                <div class="button-output-container">
+                    <button class="btn btn-primary-solid">Primary Button</button>
+                    <button class="btn btn-primary-outline">Primary Outline</button>
+                    <button class="btn btn-secondary-solid">Secondary Button</button>
+                    <button class="btn btn-secondary-outline">Secondary Outline</button>
+                </div>
+                <div class="button-output-container">
+                    <button class="btn btn-link">Click me</button>
+                    <button class="btn btn-primary-solid"><i class="fas fa-check-circle"></i> Submit</button>
+                    <button class="btn btn-float-action">+</button>
+                </div>
+                <div>
+                    <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EPrimary%2520Outline%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-solid%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-outline%2522%253ESecondary%2520Outline%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253EClick%2520me%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%2520Submit%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-float-action%2522%253E%252B%253C%252Fbutton%253E"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>

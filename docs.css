@@ -15,17 +15,16 @@ section {
   margin: 1rem;
 }
 .navbar {
-  position: sticky;
+  /* position: sticky; */
   top: 0;
 }
 .sidebar {
   background-color: var(--color-background);
-  /* flex-basis: 25vw; */
   flex-basis: 20%;
   position: sticky;
-  top: 4rem;
+  top: 0;
   left: 0;
-  height: calc(100vh - 4rem);
+  height: 100vh;
   overflow: auto;
 }
 .main-container {
@@ -60,4 +59,16 @@ section {
   border: 0;
   transform: scale(1);
   overflow: hidden;
+}
+.badge-output-container{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.button-output-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
