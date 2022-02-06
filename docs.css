@@ -28,7 +28,7 @@ section {
   height: calc(100vh - 4rem);
   overflow: auto;
 }
-main {
+.main-container {
   flex-basis: 80%;
 }
 .sidebar-list {
