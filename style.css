@@ -4,7 +4,7 @@
     --color-primary: #e76f43;
     --color-white: #eeeeee;
     --color-background: #e4e4e4;
-    --color-black: #000000de;
+    --color-black: #000000de;   
     --sans: Oxygen, sans-serif;
     --font-logo: Prompt;
 }
@@ -80,7 +80,8 @@ ul{
     justify-content: flex-start;
     gap: 1rem;
 }
-.btn{
+.btn-homepage{
+    cursor: pointer;
     padding: 0.5rem;
     color: var(--color-black);
     border-radius: 4px;
@@ -89,9 +90,10 @@ ul{
     font-weight: bolder;
     border: 2px solid var(--color-primary);
 }
-.btn:hover{
+.btn-homepage:hover{
     background-color: var(--color-primary);
+    color: white;
 }
-.btn-primary{
-    background-color: var(--color-primary)
+.btn-homepage-primary{
+    background-color: var(--color-primary);
 }

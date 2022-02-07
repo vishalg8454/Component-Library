@@ -1,0 +1,86 @@
+:root{
+    --color-online: green;
+    --color-offline: red;
+    --color-away: yellow;
+}
+.avatar{
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.avatar-xsm{
+    width: 2rem;
+    height: 2rem;
+}
+.avatar-sm{
+    width: 3rem;
+    height: 3rem;
+}
+.avatar-md{
+    width: 4rem;
+    height: 4rem;
+}
+.avatar-lg{
+    width: 5rem;
+    height: 5rem;
+}
+.badge{
+    border: 2px solid white;
+    background-color: gray;
+}
+.badge-xsm{
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: var(--color-online);
+    border-radius: 50%;
+    margin-left: 1.4rem;
+    margin-top: -1rem;
+    position: absolute;
+}
+.badge-sm{
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50%;
+    margin-left: 2.1rem;
+    margin-top: -1.1rem;
+    position: absolute;
+}
+.badge-md{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin-left: 2.8rem;
+    margin-top: -1.2rem;
+    position: absolute;
+}
+.badge-lg{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    margin-left: 3.7rem;
+    margin-top: -1.6rem;
+    position: absolute;
+}
+.badge-online{
+    background-color: var(--color-online);
+}
+.badge-offline{
+    background-color: var(--color-offline);
+}
+.badge-away{
+    background-color: var(--color-away);
+}
+.badge-icon{
+    font-size: 2rem;
+    color: var(--color-primary);
+}
+.badge-text{
+    background-color: var(--color-offline);
+    color: var(--color-white);
+    text-align: center;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    margin-left: 1.3rem;
+    margin-top: -2.4rem;
+    position: absolute;
+}
