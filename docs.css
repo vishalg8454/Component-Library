@@ -67,8 +67,13 @@ section {
   justify-content: center;
   margin-bottom: 3rem;
 }
-.button-output-container{
+.button-output-container,
+.card-output-container,
+.avatar-output-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 1rem;
 }
