@@ -1,0 +1,41 @@
+.avatar{
+    border-radius: 50%;
+    border: 2px solid red;
+    color: aqua;
+}
+.avatar-xsm{
+    width: 2rem;
+    height: 2rem;
+}
+.avatar-sm{
+    width: 3rem;
+    height: 3rem;
+}
+.avatar-md{
+    width: 4rem;
+    height: 4rem;
+}
+.avatar-lg{
+    width: 5rem;
+    height: 5rem;
+}
+.avatar-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-background);
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+}
+.avatar-text-xsm{
+    font-size: 0.8rem;
+}
+.avatar-text-sm{
+    font-size: 1rem;
+}
+.avatar-text-md{
+    font-size: 1.5rem;
+}
+.avatar-text-lg{
+    font-size: 2rem;
+}

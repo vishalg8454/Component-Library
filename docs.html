@@ -36,6 +36,8 @@
                 <a class="sidebar-list-item" href="#alert">Alert</a>
                 <a class="sidebar-list-item" href="#badge">Badge</a>
                 <a class="sidebar-list-item" href="#button">Button</a>
+                <a class="sidebar-list-item" href="#card">Card</a>
+                <a class="sidebar-list-item" href="#avatar">Avatar</a>
             </ul>
         </aside>
 
@@ -107,13 +109,13 @@
                     </iframe>
                 </div>
             </section>
-            
+
             <!-- button -->
             <section id="button">
                 <h2 class="component-title">Button</h2>
                 <p class="component-description">Primary and secondary buttons are available in two varients: Solid and
                     Outline. Link buttons are available under class 'btn-link'. FAB are available under class
-                    'button-floating-action'. Icons can also be used inside button. 
+                    'button-floating-action'. Icons can also be used inside button.
                 </p>
                 <div class="button-output-container">
                     <button class="btn btn-primary-solid">Primary Button</button>
@@ -128,12 +130,119 @@
                 </div>
                 <div>
                     <iframe class="component-code"
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EPrimary%2520Outline%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-solid%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-outline%2522%253ESecondary%2520Outline%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253EClick%2520me%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%2520Submit%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-float-action%2522%253E%252B%253C%252Fbutton%253E"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EPrimary%2520Outline%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-solid%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-outline%2522%253ESecondary%2520Outline%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253EClick%2520me%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%2520Submit%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-float-action%2522%253E%252B%253C%252Fbutton%253E"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
             </section>
 
+            <!-- card -->
+            <section id="card">
+                <h2 class="component-title">Card</h2>
+                <p class="component-description">Card is a major component which can be used to display information
+                    about something like products. They can also be used to confim user actions.
+                    Horizontal and vertical card are available with pictures in them. Text-only cards with buttons are
+                    also possible.
+                </p>
+                <div class="card-output-container">
+                    <div class="card-container">
+                        <img class="card-image" src="https://picsum.photos/id/2/300/200" alt="Item Image">
+                        <h6 class="card-title">Macbook Air M2, 32GB</h6>
+                        <p class="card-description">Apple M2 Chip with 8‑Core CPU and 7‑Core GPU
+                            256GB Storage</p>
+                        <div class="card-btn-container">
+                            <button class="card-btn card-btn-primary">Add to Cart</button>
+                            <button class="card-btn card-btn-secondary">Save For Later</button>
+                            <i class="card-btn-icon far fa-heart"></i>
+                            <i class="card-btn-icon fas fa-ellipsis-v"></i>
+                        </div>
+                        <div class="card-badge">-22%</div>
+                    </div>
+
+                    <div class="card-overlay-container">
+                        <div class="card-overlay-text">Out Of Stock</div>
+                        <div class="card-container">
+                            <img class="card-image" src="https://picsum.photos/id/2/300/200" alt="Item Image">
+                            <h6 class="card-title">Macbook Air M2, 32GB</h6>
+                            <p class="card-description">Apple M2 Chip with 8‑Core CPU and 7‑Core GPU
+                                256GB Storage</p>
+                            <div class="card-btn-container">
+                                <button class="card-btn card-btn-primary">Add to Cart</button>
+                                <button class="card-btn card-btn-secondary">Save For Later</button>
+                                <i class="card-btn-icon far fa-heart"></i>
+                                <i class="card-btn-icon fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F2%252F300%252F200%2522%250A%2520%2520%2520%2520%2520alt%253D%2522Item%2520Image%2522%253E%250A%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EMacbook%2520Air%2520M2%252C%252032GB%253C%252Fh6%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EApple%2520M2%2520Chip%2520with%25208%25E2%2580%2591Core%2520CPU%2520and%25207%25E2%2580%2591Core%2520GPU%250A%2520%2520%2520%2520%2520%2520%2520%2520256GB%2520Storage%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-secondary%2522%253ESave%2520For%2520Later%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E-22%2525%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522card-overlay-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay-text%2522%253EOut%2520Of%2520Stock%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F2%252F300%252F200%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Item%2520Image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EMacbook%2520Air%2520M2%252C%252032GB%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EApple%2520M2%2520Chip%2520with%25208%25E2%2580%2591Core%2520CPU%2520and%25207%25E2%2580%2591Core%2520GPU%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520256GB%2520Storage%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-secondary%2522%253ESave%2520For%2520Later%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <div class="card-output-container">
+                    <div class="card-container">
+                        <h6 class="card-title">Delete</h6>
+                        <p class="card-description">Are you sure you want to delete?</p>
+                        <div class="card-btn-container">
+                            <button class="card-btn card-btn-primary">Delete</button>
+                            <button class="card-btn card-btn-secondary">Cancel</button>
+                        </div>
+                    </div>
+
+                    <div class="card-container card-horizontal">
+                        <img class="card-image" src="https://picsum.photos/id/2/180/120" alt="Item Image">
+                        <div class="card-container">
+                            <h6 class="card-title">Macbook Air M2, 32GB</h6>
+                            <p class="card-description">Apple M2 Chip with 8‑Core CPU and 7‑Core GPU
+                                256GB Storage</p>
+                            <div class="card-btn-container">
+                                <button class="card-btn card-btn-primary">Add to Cart</button>
+                                <button class="card-btn card-btn-secondary">Save For Later</button>
+                                <i class="card-btn-icon far fa-heart"></i>
+                                <i class="card-btn-icon fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EDelete%253C%252Fh6%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EAre%2520you%2520sure%2520you%2520want%2520to%2520delete%253F%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-primary%2522%253EDelete%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-secondary%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522card-container%2520card-horizontal%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F2%252F180%252F120%2522%2520%250A%2520%2520%2520%2520alt%253D%2522Item%2520Image%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EMacbook%2520Air%2520M2%252C%252032GB%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EApple%2520M2%2520Chip%2520with%25208%25E2%2580%2591Core%2520CPU%2520and%25207%25E2%2580%2591Core%2520GPU%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520256GB%2520Storage%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-secondary%2522%253ESave%2520For%2520Later%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </section>
+
+            <!-- avatar -->
+            <section id="avatar">
+                <h2 class="component-title">Avatar</h2>
+                <p class="component-description">Avatar is used to show profile picture or initials of an user. Avatar
+                    is available in four sizes 'xsm', 'sm', 'md' and 'lg'.
+                </p>
+                <div class="avatar-output-container">
+                    <img class="avatar avatar-xsm" src="https://i.pravatar.cc/300">
+                    <img class="avatar avatar-sm" src="https://i.pravatar.cc/300">
+                    <img class="avatar avatar-md" src="https://i.pravatar.cc/300">
+                    <img class="avatar avatar-lg" src="https://i.pravatar.cc/300">
+                </div>
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-xsm%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <p class="component-description">Four sizes of text Avatar are available in sizes 'xsm', 'sm', 'md' and 'lg'.
+                </p>
+                <div class="avatar-output-container">
+                    <div class="avatar avatar-xsm avatar-text avatar-text-xsm">VG</div>
+                    <div class="avatar avatar-sm avatar-text avatar-text-sm">VG</div>
+                    <div class="avatar avatar-md avatar-text avatar-text-md">VG</div>
+                    <div class="avatar avatar-lg avatar-text avatar-text-lg">VG</div>
+                    <iframe class="component-code"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-xsm%2520avatar-text%2520avatar-text-xsm%2522%253EVG%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520avatar-text%2520avatar-text-sm%2522%253EVG%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520avatar-text%2520avatar-text-md%2522%253EVG%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520avatar-text%2520avatar-text-lg%2522%253EVG%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+
+            </section>
         </main>
     </div>
 </body>
