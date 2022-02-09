@@ -8,4 +8,5 @@ Components available
 3. Button
 4. Card
 5. Avatar
-
+6. Image
+7. Input

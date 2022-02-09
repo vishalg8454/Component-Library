@@ -77,3 +77,12 @@ section {
   gap: 3rem;
   padding: 1rem;
 }
+.img-container{
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.input-container{
+  display: flex;
+  margin: 1rem;
+}

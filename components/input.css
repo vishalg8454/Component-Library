@@ -1,0 +1,15 @@
+.input-label{
+    padding: 0.5rem;
+    min-width: 7rem;
+}
+.input-box{
+    padding: 0.5rem;
+    caret-color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    font-size: 1rem;
+    width: 100%;
+}
+.input-box:invalid{
+    border: 2px solid red;
+    background-color: var(--color-light-red);
+}
