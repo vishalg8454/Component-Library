@@ -38,6 +38,8 @@
                 <a class="sidebar-list-item" href="#button">Button</a>
                 <a class="sidebar-list-item" href="#card">Card</a>
                 <a class="sidebar-list-item" href="#avatar">Avatar</a>
+                <a class="sidebar-list-item" href="#image">Image</a>
+                <a class="sidebar-list-item" href="#input">Input</a>
             </ul>
         </aside>
 
@@ -228,7 +230,8 @@
                     src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-xsm%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
-                <p class="component-description">Four sizes of text Avatar are available in sizes 'xsm', 'sm', 'md' and 'lg'.
+                <p class="component-description">Four sizes of text Avatar are available in sizes 'xsm', 'sm', 'md' and
+                    'lg'.
                 </p>
                 <div class="avatar-output-container">
                     <div class="avatar avatar-xsm avatar-text avatar-text-xsm">VG</div>
@@ -242,6 +245,47 @@
 
                 </div>
 
+            </section>
+
+            <!-- image -->
+            <section id="image">
+                <h2 class="component-title">Image</h2>
+                <p class="component-description">Image can be responsive where can can grow in size while maintaining
+                    aspect ratio. Round images are available under the class 'img-round'.
+                </p>
+                <div class="img-container">
+                    <img class="img-responsive" src="./images/500x200.jpeg">
+                </div>
+                <div class="img-container">
+                    <img src="./images/sample-avatar.jpeg" class="img-round">
+                </div>
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522.%252Fimages%252F500x200.jpeg%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fsample-avatar.jpeg%2522%2520class%253D%2522img-round%2522%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <!-- input -->
+            <section id="input">
+                <h2 class="component-title">Input</h2>
+                <p class="component-description">Input element with type="text" can be used to take textual inputs from
+                    user. The styled
+                    input box is available under 'input-box' class along with the styling applied for invalid
+                    validations.
+                </p>
+                <div class="input-container">
+                    <label class="input-label" for="email-box">Email:</label>
+                    <input class="input-box" type="email" name="email-box" placeholder="enter valid email" size="25">
+                </div>
+                <div class="input-container">
+                    <label class="input-label" for="msg-box">Message:</label>
+                    <textarea class="input-box" type="text" name="msg-box" placeholder="(100 to 125 chars)" size="25"
+                        rows="3"></textarea>
+                </div>
+                <iframe class="component-code"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522email-box%2522%253EEmail%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522email%2522%2520name%253D%2522email-box%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522enter%2520valid%2520email%2522%2520size%253D%252225%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522msg-box%2522%253EMessage%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520name%253D%2522msg-box%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522%28100%2520to%2520125%2520chars%29%2522%2520size%253D%252225%2522rows%253D%25223%2522%253E%250A%2520%2520%2520%2520%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </section>
         </main>
     </div>
