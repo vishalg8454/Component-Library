@@ -40,6 +40,8 @@
                 <a class="sidebar-list-item" href="#avatar">Avatar</a>
                 <a class="sidebar-list-item" href="#image">Image</a>
                 <a class="sidebar-list-item" href="#input">Input</a>
+                <a class="sidebar-list-item" href="#rating">Rating</a>
+                <a class="sidebar-list-item" href="#textutility">Text Utility</a>
             </ul>
         </aside>
 
@@ -283,9 +285,68 @@
                         rows="3"></textarea>
                 </div>
                 <iframe class="component-code"
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522email-box%2522%253EEmail%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522email%2522%2520name%253D%2522email-box%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522enter%2520valid%2520email%2522%2520size%253D%252225%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522msg-box%2522%253EMessage%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520name%253D%2522msg-box%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522%28100%2520to%2520125%2520chars%29%2522%2520size%253D%252225%2522rows%253D%25223%2522%253E%250A%2520%2520%2520%2520%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522email-box%2522%253EEmail%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522email%2522%2520name%253D%2522email-box%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522enter%2520valid%2520email%2522%2520size%253D%252225%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522msg-box%2522%253EMessage%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520name%253D%2522msg-box%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522%28100%2520to%2520125%2520chars%29%2522%2520size%253D%252225%2522rows%253D%25223%2522%253E%250A%2520%2520%2520%2520%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
+            </section>
+
+            <!-- rating -->
+            <section id="rating">
+                <h2 class="component-title">Rating</h2>
+                <p class="component-description">Rating is used to take rating feedback from the user.
+                    Rating icons base styling is available under 'rating-icon'. The checked status can be applied using
+                    'checked' class.
+                </p>
+                <div class="rating-container">
+                    <i class="rating-icon checked fas fa-star"></i>
+                    <i class="rating-icon checked fas fa-star"></i>
+                    <i class="rating-icon checked fas fa-star"></i>
+                    <i class="rating-icon checked fas fa-star"></i>
+                    <i class="rating-icon fas fa-star"></i>
+                </div>
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522rating-icon%2520checked%2520fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522rating-icon%2520checked%2520fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522rating-icon%2520checked%2520fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522rating-icon%2520checked%2520fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522rating-icon%2520fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <!-- textutility -->
+            <section id="textutility">
+                <h2 class="component-title">Text-Utility</h2>
+                <p class="component-description">Text Utility classes are available for styling text. Header's size can
+                    be chosen using classes from 'text-h1' through 'text-h6'.
+                    Text size can be increased or decreased under class name 'text-lg', 'text-md' and 'text-sm'.
+                    Primary color and gray color available under 'text-primary' and 'text-gray'.
+                </p>
+                <h1 class="text-h1">H1-Heading</h1>
+                <h2 class="text-h2">H2-Heading</h2>
+                <h3 class="text-h3">H3-Heading</h3>
+                <h4 class="text-h4">H4-Heading</h4>
+                <h5 class="text-h5">H5-Heading</h5>
+                <h6 class="text-h6">H6-Heading</h6>
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522text-h1%2522%253EH1-Heading%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522text-h2%2522%253EH2-Heading%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522text-h3%2522%253EH3-Heading%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522text-h4%2522%253EH4-Heading%253C%252Fh4%253E%250A%253Ch5%2520class%253D%2522text-h5%2522%253EH5-Heading%253C%252Fh5%253E%250A%253Ch6%2520class%253D%2522text-h6%2522%253EH6-Heading%253C%252Fh6%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <p class="text-lg">Example of large text in a paragraph.</p>
+                <p class="text-md">Example of medium text in a paragraph.</p>
+                <p class="text-sm">Example of small text in a paragraph.</p>
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-lg%2522%253EExample%2520of%2520large%2520text%2520in%2520a%2520paragraph.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-md%2522%253EExample%2520of%2520medium%2520text%2520in%2520a%2520paragraph.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-sm%2522%253EExample%2520of%2520small%2520text%2520in%2520a%2520paragraph.%253C%252Fp%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <p class="text-primary text-md">Example of medium text in primary color.</p>
+                <p class="text-gray text-md">Example of medium text in gray color.</p>
+                <p class="text-underline text-sm">Example of small text with underline.</p>
+                <p class="text-strike text-sm">Example of small text with strikethrough.</p>
+                <p class="text-bold text-sm">Example of medium text in bold.</p>
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-primary%2520text-md%2522%253EExample%2520of%2520medium%2520text%2520in%2520primary%2520color.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-gray%2520text-md%2522%253EExample%2520of%2520medium%2520text%2520in%2520gray%2520color.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-underline%2520text-sm%2522%253EExample%2520of%2520small%2520text%2520with%2520underline.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-strike%2520text-sm%2522%253EExample%2520of%2520small%2520text%2520with%2520strikethrough.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-bold%2520text-sm%2522%253EExample%2520of%2520medium%2520text%2520in%2520bold.%253C%252Fp%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
             </section>
         </main>
     </div>

@@ -10,3 +10,5 @@ Components available
 5. Avatar
 6. Image
 7. Input
+8. Rating
+9. Text Utility
