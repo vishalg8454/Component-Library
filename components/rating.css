@@ -1,0 +1,13 @@
+:root{
+    --color-rating:#f4b83f;
+}
+.rating-container{
+    margin: 1rem;
+}
+.rating-icon{
+    color: var(--color-light-gray);
+    font-size: 1.2rem;
+}
+.checked{
+    color: var(--color-rating);
+}
