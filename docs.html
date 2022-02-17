@@ -43,6 +43,7 @@
                 <a class="sidebar-list-item" href="#rating">Rating</a>
                 <a class="sidebar-list-item" href="#textutility">Text Utility</a>
                 <a class="sidebar-list-item" href="#navbar">Navbar</a>
+                <a class="sidebar-list-item" href="#slider">Slider</a>
             </ul>
         </aside>
 
@@ -347,51 +348,71 @@
                     src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-primary%2520text-md%2522%253EExample%2520of%2520medium%2520text%2520in%2520primary%2520color.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-gray%2520text-md%2522%253EExample%2520of%2520medium%2520text%2520in%2520gray%2520color.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-underline%2520text-sm%2522%253EExample%2520of%2520small%2520text%2520with%2520underline.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-strike%2520text-sm%2522%253EExample%2520of%2520small%2520text%2520with%2520strikethrough.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-bold%2520text-sm%2522%253EExample%2520of%2520medium%2520text%2520in%2520bold.%253C%252Fp%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
+            </section>
 
-                <!-- navbar -->
-                <section id="navbar">
-                    <h2 class="component-title">Navbar</h2>
-                    <p class="component-description">
-                        Navbar is the topmost element in any website. There is provision for logo,
-                        search bar, a CTA button and list of buttons to the right.
-                    </p>
+            <!-- navbar -->
+            <section id="navbar">
+                <h2 class="component-title">Navbar</h2>
+                <p class="component-description">
+                    Navbar is the topmost element in any website. There is provision for logo,
+                    search bar, a CTA button and list of buttons to the right.
+                </p>
 
-                    <nav class="navbar">
-                        <div class="nav-container">
-                            <a class="nav-logo" href="#">LOGO</a>
-                            <div class="nav-search-container">
-                                <input class="nav-search-text" type="text">
-                                <button class="nav-search-button"><i class="fas fa-search"></i></button>
-                            </div>
-                            <button class="btn btn-primary-outline  nav-cta">Login</button>
-                            <ul class="nav-list">
-                                <li class="nav-list-items">
-                                    <div>
-                                        <a> <i class="badge-icon fas fa-heart nav-icon"></i></a>
-                                        <div class="badge-text">9</div>
-                                    </div>
-                                </li>
-                                <li class="nav-list-items">
-                                    <div>
-                                        <a><i class="badge-icon fas fa-shopping-cart nav-icon"></i></a>
-                                        <div class="badge-text">3</div>
-                                    </div>
-                                </li>
-                            </ul>
+                <nav class="navbar">
+                    <div class="nav-container">
+                        <a class="nav-logo" href="#">LOGO</a>
+                        <div class="nav-search-container">
+                            <input class="nav-search-text" type="text">
+                            <button class="nav-search-button"><i class="fas fa-search"></i></button>
                         </div>
-                    </nav>
+                        <button class="btn btn-primary-outline  nav-cta">Login</button>
+                        <ul class="nav-list">
+                            <li class="nav-list-items">
+                                <div>
+                                    <a> <i class="badge-icon fas fa-heart nav-icon"></i></a>
+                                    <div class="badge-text">9</div>
+                                </div>
+                            </li>
+                            <li class="nav-list-items">
+                                <div>
+                                    <a><i class="badge-icon fas fa-shopping-cart nav-icon"></i></a>
+                                    <div class="badge-text">3</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
 
-                    <iframe class="component-code"
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-logo%2522%2520href%253D%2522%2523%2522%253ELOGO%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-search-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522nav-search-text%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522nav-search-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2520%2520nav-cta%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-list-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%253E%2520%253Ci%2520class%253D%2522badge-icon%2520fas%2520fa-heart%2520nav-icon%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-text%2522%253E9%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-list-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%253E%253Ci%2520class%253D%2522badge-icon%2520fas%2520fa-shopping-cart%2520nav-icon%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-text%2522%253E3%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-logo%2522%2520href%253D%2522%2523%2522%253ELOGO%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-search-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522nav-search-text%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522nav-search-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2520%2520nav-cta%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-list-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%253E%2520%253Ci%2520class%253D%2522badge-icon%2520fas%2520fa-heart%2520nav-icon%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-text%2522%253E9%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-list-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%253E%253Ci%2520class%253D%2522badge-icon%2520fas%2520fa-shopping-cart%2520nav-icon%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-text%2522%253E3%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
 
-                </section>
+            <!-- slider -->
+            <section id="slider">
+                <h2 class="component-title">Slider</h2>
+                <p class="component-description">
+                    Slider is used to select values from a given range. Basic theme styling is available under the class
+                    'slider'. Labels can also be provided under the class name
+                    'label-container'
+                </p>
 
+                <div class="slider-container">
+                    <div class="label-container">
+                        <span>0</span>
+                        <span>50</span>
+                        <span>100</span>
+                    </div>
+                    <input class="slider" type="range" min="0" max="100" value="50">
+                </div>
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2522%2520%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522label-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E0%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E50%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E100%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522slider%2522%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </section>
         </main>
     </div>
 </body>
 
 </html>
-
