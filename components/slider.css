@@ -1,0 +1,20 @@
+.slider-container{
+    width: 15rem;
+    padding: 1rem;
+}
+.slider{
+    background-color: var(--color-light-gray);
+    width: 100%;
+    -webkit-appearance: none; 
+}
+.label-container{
+    display: flex;
+    justify-content: space-between;
+}
+.slider::-webkit-slider-thumb {
+    background: var(--color-primary);
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+  }

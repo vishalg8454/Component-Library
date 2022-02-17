@@ -12,3 +12,5 @@ Components available
 7. Input
 8. Rating
 9. Text Utility
+10. Navbar
+11. Slider
