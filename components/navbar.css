@@ -46,3 +46,19 @@
 .nav-cta{
     border-radius: 4px;
 }
+/* missing classes from style.css */
+.nav-container{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav-logo{
+    font-size: x-large;
+    font-family: var(--font-logo);
+    color: var(--color-white);
+}
+.navbar{
+    background: var(--color-primary);
+    height: 4rem;
+}
