@@ -35,10 +35,16 @@ section {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  align-items: center;
+  align-items: flex-start;
 }
 .sidebar-list-item {
   color: var(--color-primary);
+  border: 2px solid var(--color-background);
+  padding: 0.5rem;
+  width: 100%;
+}
+.sidebar-list-item:hover{
+  border: 2px solid var(--color-primary);
 }
 .component-demo {
   padding: 1rem 0rem;

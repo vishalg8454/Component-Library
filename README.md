@@ -1,4 +1,3 @@
-(in early stage)
 # Component-Library
 Ready to use CSS component library with documentation.
 Example can be seen at https://component-vishalg8454.netlify.app/docs.html
