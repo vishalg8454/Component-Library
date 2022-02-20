@@ -98,3 +98,6 @@ ul{
 .btn-homepage-primary{
     background-color: var(--color-primary);
 }
+.installation-container{
+    padding: 2rem;
+}
