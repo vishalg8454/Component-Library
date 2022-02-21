@@ -15,7 +15,6 @@ Components available
 10. Navbar
 11. Slider
 
-<video width="600" height="400" controls>
-  <source src="/images/edited.mp4" type="video/mp4">
-</video>
+
+https://user-images.githubusercontent.com/66552164/154920329-8145ba06-dc10-4d94-aade-f663fc115ff1.mp4
 
