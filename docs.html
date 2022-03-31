@@ -282,7 +282,7 @@
                     </div>
                 </div>
                 <iframe class="component-code"
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F2%252F300%252F200%2522%2520alt%253D%2522Item%2520Image%2522%253E%250A%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EMacbook%2520Air%2520M2%252C%252032GB%253C%252Fh6%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EApple%2520M2%2520Chip%2520with%25208%25E2%2580%2591Core%2520CPU%2520and%25207%25E2%2580%2591Core%2520GPU%250A%2520%2520%2520%2520%2520%2520%2520%2520256GB%2520Storage%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-secondary%2522%253ESave%2520For%2520Later%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E-22%2525%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F2%252F300%252F200%2522%2520alt%253D%2522Item%2520Image%2522%253E%250A%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EMacbook%2520Air%2520M2%252C%252032GB%253C%252Fh6%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EApple%2520M2%2520Chip%2520with%25208%25E2%2580%2591Core%2520CPU%2520and%25207%25E2%2580%2591Core%2520GPU%250A%2520%2520%2520%2520%2520%2520%2520%2520256GB%2520Storage%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-secondary%2522%253ESave%2520For%2520Later%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E-22%2525%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
 
@@ -347,19 +347,60 @@
                 <p class="component-description">Input element with type="text" can be used to take textual inputs from
                     user. The styled input box is available under <code>input-box</code> class along with the styling
                     applied for invalid
-                    validations. The label styling is available under <code>input-label</code>.
+                    validations. The label styling is available under <code>input-label</code>. The feedback message
+                    sty;ing is
+                    available under <code>input-txt-error</code> and <code>input-txt-valid</code> class.
                 </p>
+                <h3 class="text-h3 sub-heading">Email Validation </h3>
                 <div class="input-container">
                     <label class="input-label" for="email-box">Email:</label>
-                    <input class="input-box" type="email" name="email-box" placeholder="enter valid email" size="25">
+                    <input class="input-box" type="email" name="email-box" placeholder="enter valid email" size="25"
+                        required>
                 </div>
+
+                <div class="input-container">
+                    <label class="input-label" for="email-box">Email:</label>
+                    <input class="input-box" type="email" name="email-box" placeholder="enter valid email" size="25"
+                        required value="johndoe@example.com">
+                </div>
+
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522email-box%2522%253EEmail%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522email%2522%2520name%253D%2522email-box%2522%2520placeholder%253D%2522enter%2520valid%2520email%2522%2520size%253D%252225%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520required%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522email-box%2522%253EEmail%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522email%2522%2520name%253D%2522email-box%2522%2520placeholder%253D%2522enter%2520valid%2520email%2522%2520size%253D%252225%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520required%2520value%253D%2522johndoe%2540example.com%2522%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <h3 class="text-h3 sub-heading">Password Validation </h3>
+                <div class="input-container">
+                    <label class="input-label" for="confirm-password">Password:</label>
+                    <div>
+                        <input type="password" class="input-box" name="confirm-password" placeholder="Enter password"
+                            required minlength="8" />
+                        <div class="input-txt-error">Password should be minimum 8 characters</div>
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <label class="input-label" for="confirm-password">Password:</label>
+                    <div>
+                        <input type="password" class="input-box input-box-valid" name="confirm-password"
+                            placeholder="Re-enter password" required value="StrongPassword@123" minlength="8" />
+                        <div class="input-txt-valid">Strong password</div>
+                    </div>
+                </div>
+
+                <iframe class="component-code"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522confirm-password%2522%253EPassword%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input-box%2522%2520name%253D%2522confirm-password%2522%2520placeholder%253D%2522Enter%2520password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520required%2520minlength%253D%25228%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-txt-error%2522%253EPassword%2520should%2520be%2520minimum%25208%2520characters%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522confirm-password%2522%253EPassword%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input-box%2520input-box-valid%2522%2520name%253D%2522confirm-password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Re-enter%2520password%2522%2520required%2520value%253D%2522StrongPassword%2540123%2522%2520minlength%253D%25228%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-txt-valid%2522%253EStrong%2520password%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <h3 class="text-h3 sub-heading">Message Input Box </h3>
                 <div class="input-container">
                     <label class="input-label" for="msg-box">Message:</label>
-                    <textarea class="input-box" type="text" name="msg-box" placeholder="(100 to 125 chars)" size="25"
+                    <textarea class="input-box" type="text" name="msg-box" placeholder="(50-80 characters)" size="25"
                         rows="3"></textarea>
                 </div>
                 <iframe class="component-code"
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522email-box%2522%253EEmail%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-box%2522%2520type%253D%2522email%2522%2520name%253D%2522email-box%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522enter%2520valid%2520email%2522%2520size%253D%252225%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522msg-box%2522%253EMessage%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520name%253D%2522msg-box%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522%28100%2520to%2520125%2520chars%29%2522%2520size%253D%252225%2522rows%253D%25223%2522%253E%250A%2520%2520%2520%2520%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522msg-box%2522%253EMessage%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520name%253D%2522msg-box%2522%2520placeholder%253D%2522%2850-80%2520characters%29%2522%2520size%253D%252225%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520rows%253D%25223%2522%253E%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </section>
