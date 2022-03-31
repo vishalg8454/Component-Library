@@ -218,6 +218,75 @@
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
 
+                <h3 class="text-h3 sub-heading">Dismissable Card</h3>
+
+                <div class="card-output-container" id="card-dismiss">
+                    <div class="card-container">
+                        <img class="card-image" src="https://picsum.photos/id/2/300/200" alt="Item Image">
+                        <h6 class="card-title">Macbook Air M2, 32GB</h6>
+                        <p class="card-description">Apple M2 Chip with 8‑Core CPU and 7‑Core GPU
+                            256GB Storage</p>
+                        <div class="card-btn-container">
+                            <button class="card-btn card-btn-primary">Add to Cart</button>
+                            <button class="card-btn card-btn-secondary">Save For Later</button>
+                            <i class="card-btn-icon far fa-heart"></i>
+                            <i class="card-btn-icon fas fa-ellipsis-v"></i>
+                        </div>
+                        <div class="card-badge">-22%</div>
+                        <i class="card-dismiss-icon fas fa-times"></i>
+                    </div>
+
+                    <!--
+                        //code for dismising the card
+                        const card = document.getElementById("card-dismiss");
+                        const dismissButton = document.querySelector(".card-dismiss-icon");
+
+                        dismissButton.addEventListener("click", () => {
+                            card.style.display = "none";
+                        });
+                    -->
+                </div>
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F2%252F300%252F200%2522%2520alt%253D%2522Item%2520Image%2522%253E%250A%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EMacbook%2520Air%2520M2%252C%252032GB%253C%252Fh6%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EApple%2520M2%2520Chip%2520with%25208%25E2%2580%2591Core%2520CPU%2520and%25207%25E2%2580%2591Core%2520GPU%250A%2520%2520%2520%2520256GB%2520Storage%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-secondary%2522%253ESave%2520For%2520Later%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E-22%2525%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522card-dismiss-icon%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252FJS%2520code%2520for%2520hiding%250Aconst%2520card%2520%253D%2520document.getElementById%28%2522card-dismiss%2522%29%253B%250Aconst%2520dismissButton%2520%253D%2520document.querySelector%28%2522.card-dismiss-icon%2522%29%253B%250A%250AdismissButton.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520card.style.display%2520%253D%2520%2522none%2522%253B%250A%257D%29%253B"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <h3 class="text-h3 sub-heading">Text Only Card</h3>
+
+                <div class="card-output-container">
+                    <div class="card-container">
+                        <h6 class="card-title">Order Successfull!</h6>
+                        <p class="card-description">Your Order with order Id 45653 has been placed.</p>
+                    </div>
+                </div>
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EOrder%2520Successfull%21%253C%252Fh6%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EYour%2520Order%2520with%2520order%2520Id%252045653%2520has%2520been%2520placed.%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <h3 class="text-h3 sub-heading">Card with Shadow</h3>
+
+                <div class="card-output-container">
+                    <div class="card-container card-shadow">
+                        <img class="card-image" src="https://picsum.photos/id/2/300/200" alt="Item Image">
+                        <h6 class="card-title">Macbook Air M2, 32GB</h6>
+                        <p class="card-description">Apple M2 Chip with 8‑Core CPU and 7‑Core GPU
+                            256GB Storage</p>
+                        <div class="card-btn-container">
+                            <button class="card-btn card-btn-primary">Add to Cart</button>
+                            <button class="card-btn card-btn-secondary">Save For Later</button>
+                            <i class="card-btn-icon far fa-heart"></i>
+                            <i class="card-btn-icon fas fa-ellipsis-v"></i>
+                        </div>
+                        <div class="card-badge">-22%</div>
+                    </div>
+                </div>
+                <iframe class="component-code"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F2%252F300%252F200%2522%2520alt%253D%2522Item%2520Image%2522%253E%250A%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EMacbook%2520Air%2520M2%252C%252032GB%253C%252Fh6%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EApple%2520M2%2520Chip%2520with%25208%25E2%2580%2591Core%2520CPU%2520and%25207%25E2%2580%2591Core%2520GPU%250A%2520%2520%2520%2520%2520%2520%2520%2520256GB%2520Storage%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-secondary%2522%253ESave%2520For%2520Later%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522card-btn-icon%2520fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E-22%2525%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
             </section>
 
             <!-- avatar -->
@@ -417,6 +486,8 @@
             </section>
         </main>
     </div>
+
+    <script src="/index.js"></script>
 </body>
 
 </html>
