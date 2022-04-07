@@ -1,0 +1,23 @@
+.toast{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 25rem;
+    min-width: 20rem;
+}
+.toast-success{
+    color: var(--color-dark-green);
+    background-color: var(--color-light-green);
+}
+.toast-warning{
+    background-color: var(--color-light-yellow);
+    color: var(--color-dark-yellow);
+}
+.toast-error{
+    background-color: var(--color-light-red);
+    color: var(--color-dark-red);
+}
+.toast-btn{
+    margin-left: auto;
+    cursor: pointer;
+}

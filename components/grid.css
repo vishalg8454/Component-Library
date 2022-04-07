@@ -1,0 +1,15 @@
+.grid{
+    display: grid;
+}
+.grid-two-v{
+    grid-template-rows: 1fr 1fr;
+}
+.grid-three-v{
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.grid-two-h{
+    grid-template-columns: 1fr 1fr;
+}
+.grid-three-h{
+    grid-template-columns: 1fr 1fr 1fr;
+}
