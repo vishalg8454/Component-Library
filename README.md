@@ -24,6 +24,9 @@ Example can be seen at https://component-vishalg8454.netlify.app/docs.html
 1. [Text Utility](https://component-vishalg8454.netlify.app/docs.html#textutility)
 1. [Navbar](https://component-vishalg8454.netlify.app/docs.html#navbar)
 1. [Slider](https://component-vishalg8454.netlify.app/docs.html#slider)
+1. [Toast](https://component-vishalg8454.netlify.app/docs.html#toast)
+1. [Grid](https://component-vishalg8454.netlify.app/docs.html#grid)
+1. [List](https://component-vishalg8454.netlify.app/docs.html#list)
 
 https://user-images.githubusercontent.com/66552164/154920329-8145ba06-dc10-4d94-aade-f663fc115ff1.mp4
 
