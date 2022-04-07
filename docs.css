@@ -96,3 +96,32 @@ section {
   margin:1rem;
   color: var(--color-font);
 }
+.toast-demo{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.sample-div-1{
+  height: 2rem;
+  width: 100%;
+  background-color: aqua;
+}
+.sample-div-2{
+  height: 2rem;
+  width: 100%;
+  background-color: royalblue;
+}
+.sample-div-3{
+  height: 2rem;
+  width: 100%;
+  background-color: greenyellow;
+}
+.grid-demo-container{
+  margin-bottom: 1rem;
+}
+.list-demo{
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

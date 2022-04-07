@@ -44,6 +44,9 @@
                 <a class="sidebar-list-item" href="#textutility">Text Utility</a>
                 <a class="sidebar-list-item" href="#navbar">Navbar</a>
                 <a class="sidebar-list-item" href="#slider">Slider</a>
+                <a class="sidebar-list-item" href="#toast">Toast</a>
+                <a class="sidebar-list-item" href="#grid">Grid</a>
+                <a class="sidebar-list-item" href="#list">List</a>
             </ul>
         </aside>
 
@@ -389,7 +392,7 @@
                 </div>
 
                 <iframe class="component-code"
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522confirm-password%2522%253EPassword%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input-box%2522%2520name%253D%2522confirm-password%2522%2520placeholder%253D%2522Enter%2520password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520required%2520minlength%253D%25228%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-txt-error%2522%253EPassword%2520should%2520be%2520minimum%25208%2520characters%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522confirm-password%2522%253EPassword%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input-box%2520input-box-valid%2522%2520name%253D%2522confirm-password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Re-enter%2520password%2522%2520required%2520value%253D%2522StrongPassword%2540123%2522%2520minlength%253D%25228%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-txt-valid%2522%253EStrong%2520password%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522confirm-password%2522%253EPassword%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input-box%2522%2520name%253D%2522confirm-password%2522%2520placeholder%253D%2522Enter%2520password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520required%2520minlength%253D%25228%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-txt-error%2522%253EPassword%2520should%2520be%2520minimum%25208%2520characters%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522confirm-password%2522%253EPassword%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input-box%2520input-box-valid%2522%2520name%253D%2522confirm-password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Re-enter%2520password%2522%2520required%2520value%253D%2522StrongPassword%2540123%2522%2520minlength%253D%25228%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-txt-valid%2522%253EStrong%2520password%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
 
@@ -400,7 +403,7 @@
                         rows="3"></textarea>
                 </div>
                 <iframe class="component-code"
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522msg-box%2522%253EMessage%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520name%253D%2522msg-box%2522%2520placeholder%253D%2522%2850-80%2520characters%29%2522%2520size%253D%252225%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520rows%253D%25223%2522%253E%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522msg-box%2522%253EMessage%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522input-box%2522%2520type%253D%2522text%2522%2520name%253D%2522msg-box%2522%2520placeholder%253D%2522%2850-80%2520characters%29%2522%2520size%253D%252225%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520rows%253D%25223%2522%253E%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </section>
@@ -525,6 +528,159 @@
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </section>
+
+            <!-- toast -->
+            <section id="toast">
+                <h2 class="component-title">Toast</h2>
+                <p class="component-description">
+                    Toast can be used for notification purpose. The base class is <code>toast</code> Three variants
+                    available are
+                    <code>toast-success</code>, <code>toast-warning</code> and <code>toast-error</code>.
+                </p>
+
+                <div class="toast-demo">
+                    <div class="toast toast-success">
+                        <div>Email delivered successfully</div>
+                        <i class="fas fa-window-close toast-btn" id="toast-cancel-btn"></i>
+                    </div>
+                </div>
+                <div class="toast toast-success">
+                    <div>Email delivered successfully</div>
+                    <i class="fas fa-window-close toast-btn"></i>
+                </div>
+                <div class="toast toast-warning">
+                    <div>Email could not be delivered</div>
+                    <i class="fas fa-window-close toast-btn"></i>
+                </div>
+                <div class="toast toast-error">
+                    <div>Invalid email address</div>
+                    <i class="fas fa-window-close toast-btn"></i>
+                </div>
+
+                <p class="component-description">
+                    Demo button.
+                </p>
+                <button class="btn btn-primary-solid " id="toast-demo-btn">Success toast</button>
+
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253EEmail%2520delivered%2520successfully%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-window-close%2520toast-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253EEmail%2520could%2520not%2520be%2520delivered%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-window-close%2520toast-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253EInvalid%2520email%2520address%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-window-close%2520toast-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </section>
+
+            <!-- grid -->
+            <section id="grid">
+                <h2 class="component-title">Simple Grid</h2>
+                <p class="component-description">
+                    Simple grid for two items and three items are available. The base class is <code>grid</code>. The
+                    classes available for vertical positioning are
+                    <code>grid-two-v</code> and <code>grid-three-v</code>. The classes available for horizontal
+                    positioning are
+                    <code>grid-two-h</code> and <code>grid-three-h</code>.
+                </p>
+
+                <h3 class="text-h3 sub-heading">Two items in a grid, vertical</h3>
+                <div class="grid-demo-container">
+                    <div class="grid grid-two-v">
+                        <div class="sample-div-1"></div>
+                        <div class="sample-div-2"></div>
+                    </div>
+                </div>
+
+                <h3 class="text-h3 sub-heading">Three items in a grid, vertical</h3>
+                <div class="grid-demo-container">
+                    <div class="grid grid-three-v">
+                        <div class="sample-div-1"></div>
+                        <div class="sample-div-2"></div>
+                        <div class="sample-div-3"></div>
+                    </div>
+                </div>
+
+                <h3 class="text-h3 sub-heading">Two items in a grid, horizontal</h3>
+                <div class="grid-demo-container">
+                    <div class="grid grid-two-h">
+                        <div class="sample-div-1"></div>
+                        <div class="sample-div-2"></div>
+                    </div>
+                </div>
+
+                <h3 class="text-h3 sub-heading">Three items in a grid, horizontal</h3>
+                <div class="grid-demo-container">
+                    <div class="grid grid-three-h">
+                        <div class="sample-div-1"></div>
+                        <div class="sample-div-2"></div>
+                        <div class="sample-div-3"></div>
+                    </div>
+                </div>
+
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-two-v%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sample-div-1%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sample-div-2%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid%2520grid-three-v%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sample-div-1%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sample-div-2%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sample-div-3%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid%2520grid-two-h%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sample-div-1%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sample-div-2%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid%2520grid-three-h%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sample-div-1%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sample-div-2%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sample-div-3%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </section>
+
+            <!-- list -->
+            <section id="list">
+                <h2 class="component-title">List</h2>
+                <p class="component-description">
+                    List can be styled with classes
+                    <code>list-circle</code>,<code>list-square</code>,<code>list-upper-roman</code>,<code>list-lower-alpha</code>
+                    <code>list-upper-roman</code> and <code>list-upper-alpha</code>
+                </p>
+
+                <div class="list-demo">
+                    <ol>
+                        <li class="list-circle">Item 1</li>
+                        <li class="list-circle">Item 2</li>
+                        <li class="list-circle">Item 3</li>
+                    </ol>
+
+                    <ol>
+                        <li class="list-square">Item 1</li>
+                        <li class="list-square">Item 2</li>
+                        <li class="list-square">Item 3</li>
+                    </ol>
+
+                    <ol>
+                        <li class="list-upper-roman">Item 1</li>
+                        <li class="list-upper-roman">Item 2</li>
+                        <li class="list-upper-roman">Item 3</li>
+                    </ol>
+
+                    <ol>
+                        <li class="list-lower-alpha">Item 1</li>
+                        <li class="list-lower-alpha">Item 2</li>
+                        <li class="list-lower-alpha">Item 3</li>
+                    </ol>
+                </div>
+
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-circle%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-circle%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-circle%2522%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-square%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-square%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-square%2522%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-upper-roman%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-upper-roman%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-upper-roman%2522%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-lower-alpha%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-lower-alpha%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-lower-alpha%2522%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <div class="list-demo">
+                    <ol>
+                        <li class="list-upper-roman">Item 1</li>
+                        <li class="list-upper-roman">Item 2</li>
+                        <li class="list-upper-roman">Item 3</li>
+                    </ol>
+
+                    <ol>
+                        <li class="list-upper-alpha">Item 1</li>
+                        <li class="list-upper-alpha">Item 2</li>
+                        <li class="list-upper-alpha">Item 3</li>
+                    </ol>
+                </div>
+
+                <iframe class="component-code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%253E%250A%2520%2520%253Cli%2520class%253D%2522list-upper-roman%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-upper-roman%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-upper-roman%2522%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%253E%250A%2520%2520%253Cli%2520class%253D%2522list-upper-alpha%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-upper-alpha%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-upper-alpha%2522%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
         </main>
     </div>
 
