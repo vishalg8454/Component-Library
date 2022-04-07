@@ -94,4 +94,5 @@ section {
 }
 .sub-heading{
   margin:1rem;
+  color: var(--color-font);
 }

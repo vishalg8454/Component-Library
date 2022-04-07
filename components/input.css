@@ -9,7 +9,17 @@
     font-size: 1rem;
     width: 100%;
 }
+.input-box-valid{
+    border: 2px solid var(--color-dark-green);
+    background-color: var(--color-light-green);
+}
 .input-box:invalid{
     border: 2px solid red;
     background-color: var(--color-light-red);
+}
+.input-txt-error{
+    color: var(--color-dark-red);
+}
+.input-txt-valid{
+    color: var(--color-dark-green);
 }
